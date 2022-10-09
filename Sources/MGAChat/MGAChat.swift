@@ -1,6 +1,5 @@
 public struct MGAChat {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+    public static func getInfo() {
+        print("this is our package MGA Caht 😃")
     }
 }
