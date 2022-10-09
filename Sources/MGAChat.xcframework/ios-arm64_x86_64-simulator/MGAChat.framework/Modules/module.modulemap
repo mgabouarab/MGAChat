@@ -1,0 +1,11 @@
+framework module MGAChat {
+  umbrella header "MGAChat.h"
+
+  export *
+  module * { export * }
+}
+
+module MGAChat.Swift {
+  header "MGAChat-Swift.h"
+  requires objc
+}
