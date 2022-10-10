@@ -1,3 +1,3 @@
 # MGAChat
 
-A description of this package.
+The package for make the chat easy and faster than ever. 
