@@ -230,6 +230,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
+@import UIKit;
 #endif
 
 #endif
@@ -250,6 +252,27 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC7MGAChat10BubbleView")
+@interface BubbleView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)drawRect:(CGRect)rect;
+@end
+
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7MGAChat4Room")
+@interface Room : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -490,6 +513,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
+@import UIKit;
 #endif
 
 #endif
@@ -510,6 +535,27 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC7MGAChat10BubbleView")
+@interface BubbleView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)drawRect:(CGRect)rect;
+@end
+
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7MGAChat4Room")
+@interface Room : UIViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+
 #endif
 #if defined(__cplusplus)
 #endif

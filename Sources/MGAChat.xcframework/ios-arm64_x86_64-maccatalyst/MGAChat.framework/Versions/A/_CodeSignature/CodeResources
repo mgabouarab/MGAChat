@@ -4,9 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Assets.car</key>
+		<data>
+		53NdeIZiS4EtLVEioaXeRREMRiI=
+		</data>
+		<key>Resources/IncomingTextCell.nib</key>
+		<data>
+		1QNY/3uKKSFQZ503Ix6IFuMbTT4=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
 		jIQwkarGxWyETJnc4nKEvwYi93U=
+		</data>
+		<key>Resources/OutgoingTextCell.nib</key>
+		<data>
+		IRabtZo0pBwELOQKt4dqBzeg0hA=
+		</data>
+		<key>Resources/Room.nib</key>
+		<data>
+		6kvx8cKQLxny0tG4rytcHcqRrCg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c0TK3XS+s0KrwSEtdd6VFvRaWdOFKHqgXZZXW4BCVUc=
+			W+LIMLgRhZOXwz6POE8f7Jz8NJgKiShn4Vo6ECm7S/8=
 			</data>
 		</dict>
 		<key>Headers/MGAChat.h</key>
@@ -29,14 +45,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1nx6eVgl4SspcgRsiugTHLDMH0mWdySuzlBerSpUEmI=
+			2SkCET9xav75h7RNzxmO+btCHQx9MtVb43nLlXxjq2g=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IrT+NmDhs1CjUYyF6zEHpB4aS05igJuO0FyAsMaaycM=
+			b8T09NfSGZkhqYiuy2XWeNJ5zJYs2fK4yQ/qkgUjlyw=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -50,28 +66,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IrT+NmDhs1CjUYyF6zEHpB4aS05igJuO0FyAsMaaycM=
+			b8T09NfSGZkhqYiuy2XWeNJ5zJYs2fK4yQ/qkgUjlyw=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQcFxGCs2vxQNAc0ocZe1b2Zai78B7cY02rye+cayxM=
+			MlSILuBiEfoDpcQjmUZbwm4JjgLathUcXmlmHhC4zY0=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1nx6eVgl4SspcgRsiugTHLDMH0mWdySuzlBerSpUEmI=
+			2SkCET9xav75h7RNzxmO+btCHQx9MtVb43nLlXxjq2g=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gBjwrBv+42tzsnIjX/dyacUOANK1K3onNKuseDxqD0=
+			U+Djk7afvNjM2vszJo5zVhZu16NlSPwTsoTKKmsABug=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gBjwrBv+42tzsnIjX/dyacUOANK1K3onNKuseDxqD0=
+			U+Djk7afvNjM2vszJo5zVhZu16NlSPwTsoTKKmsABug=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			arjp9LG94AMlrqAN8SvSau8864YeufYpwyVQlOkvuYU=
+			0YC5VoEtMg52IUCnj66fqVdc6d55S1SjLutnIDariu4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -102,11 +118,39 @@
 			7OX8oFsyg2jYWZsh+IAvL/I4z4VfKQt4HE41GrwqslA=
 			</data>
 		</dict>
+		<key>Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Md+012YvLDm+2azrRImjs678On7XCECCHBFM4JPzdWU=
+			</data>
+		</dict>
+		<key>Resources/IncomingTextCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r7bCW19c3c3mpoI0FmNUNw2zvh5GTwlJ8q7hFFM9O2I=
+			</data>
+		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			TPKRKZPG+Xu/12C9fun2KI8icwgca5OKwg48h1prNdI=
+			</data>
+		</dict>
+		<key>Resources/OutgoingTextCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cz8OlNqqD3j15OkcY5f2fWWf+GLrncdVEF+JuhL5Tjo=
+			</data>
+		</dict>
+		<key>Resources/Room.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/U3q3/7X2bSG2WaqU933rbaR3f7oMaV3/WiqKBuIbHA=
 			</data>
 		</dict>
 	</dict>

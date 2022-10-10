@@ -5,8 +5,45 @@
 import Foundation
 @_exported import MGAChat
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BubbleView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) public func set(tailDirection: MGAChat.BubbleTailDirection)
+  @objc deinit
+}
+final public class A7a {
+  public init()
+  final public func A7oo()
+  @objc deinit
+}
+public struct A7aaaaat {
+  public init()
+  public func A7oo()
+}
+public var leftTailBubbleBackground: UIKit.UIColor
+public var rightTailBubbleBackground: UIKit.UIColor
+public var leftTailBubbleFont: UIKit.UIColor
+public var rightTailBubbleFont: UIKit.UIColor
 public struct SDK {
   public static func info()
+  public static func getChatRoom() -> MGAChat.Room
 }
+public enum BubbleTailDirection {
+  case right
+  case left
+  public static func == (a: MGAChat.BubbleTailDirection, b: MGAChat.BubbleTailDirection) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class Room : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init(id: Swift.Int?, outgoingId: Swift.Int, ingoingId: Swift.Int)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) final public func info()
+  @objc deinit
+}
+extension MGAChat.BubbleTailDirection : Swift.Equatable {}
+extension MGAChat.BubbleTailDirection : Swift.Hashable {}

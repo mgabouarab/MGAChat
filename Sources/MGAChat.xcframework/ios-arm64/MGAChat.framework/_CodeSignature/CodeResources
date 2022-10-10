@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		8rN6o/JAGz/mgi+6vypR0TqrGdk=
+		</data>
 		<key>Headers/MGAChat-Swift.h</key>
 		<data>
-		MFtaM+i+52/ifY/vsRLBbMR+T2I=
+		BhVUh7sqE4B3uGu8IQj33G1DRZE=
 		</data>
 		<key>Headers/MGAChat.h</key>
 		<data>
 		b0QJLhrLK55oevaHIDbC1Hx+/G8=
+		</data>
+		<key>IncomingTextCell.nib</key>
+		<data>
+		ImYerVZ8Q8yYRBLQFmTUZ4xOs/k=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +26,11 @@
 		</data>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		a3UTu7NwkY3O/Ayu4UArMaf5K7U=
+		bJwmGlWF+jsK8YvjzsIXous55ok=
 		</data>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MNq4juftul9+OW1hrA1odkCiaKs=
+		MnpXMdkIyeN67xifN92dCl0WLKk=
 		</data>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,24 +38,39 @@
 		</data>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MNq4juftul9+OW1hrA1odkCiaKs=
+		MnpXMdkIyeN67xifN92dCl0WLKk=
 		</data>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MUXTsMvXsoVBdVSuayxuu01EIUo=
+		ayorPvmIHB1UOVBt66RC1/aGWIw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		imw8bU/eP+JdDnWSbFZTmd90pHE=
 		</data>
+		<key>OutgoingTextCell.nib</key>
+		<data>
+		WEz5t9PIF7G4aw2279aP1PUJBV8=
+		</data>
+		<key>Room.nib</key>
+		<data>
+		C9uvol8+7DQv7gHW4I+hAdZtkBI=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			momWHIcTzDU7yKKKevDnKKMXEdJNUWlzO0l4U2IiFg4=
+			</data>
+		</dict>
 		<key>Headers/MGAChat-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yt7EikeAOek15+YhmqFoEDhFIehlhV6Zb/u0D8xgXnY=
+			0TR5E0pLWqYV/IgCqb/xWk+pbfFg6DYGnK6Pm0cNYys=
 			</data>
 		</dict>
 		<key>Headers/MGAChat.h</key>
@@ -57,18 +80,25 @@
 			cAIee12wT3KcNKuviKkqSLMJuhNeU/qsk6pYZtGK5+4=
 			</data>
 		</dict>
+		<key>IncomingTextCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BH7dkKnDJZ3D8qO9Hv4iTkswYMGV41YqxQ1ChjTZqBU=
+			</data>
+		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1nx6eVgl4SspcgRsiugTHLDMH0mWdySuzlBerSpUEmI=
+			1C3TKo59GFU1/oqCi+XjrsBlhIuAsvyWK1eFPDmIOi8=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLV+Zwu73UHCZ+djYNp9P1uXpiGdXtrTiDflIhT4FQs=
+			Arv+OQYTuYa5MwDFFHaDQKdDTNKDhUBTfU3B8GcrGf8=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +112,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yLV+Zwu73UHCZ+djYNp9P1uXpiGdXtrTiDflIhT4FQs=
+			Arv+OQYTuYa5MwDFFHaDQKdDTNKDhUBTfU3B8GcrGf8=
 			</data>
 		</dict>
 		<key>Modules/MGAChat.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Lf+kvYjQ3u/nb4+dJeEc+10KDCb8U0jybj3ifZS9dg=
+			HhbOJFb6r+8oByvJQLf7zgDPKAwYyozQNpGjrRvICxs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -97,6 +127,20 @@
 			<key>hash2</key>
 			<data>
 			7OX8oFsyg2jYWZsh+IAvL/I4z4VfKQt4HE41GrwqslA=
+			</data>
+		</dict>
+		<key>OutgoingTextCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0cEgMhXr9ERhFFZ2dUs97h7+6C4pnDVDUZRMi3Fnytc=
+			</data>
+		</dict>
+		<key>Room.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vmjcHuECMt14OplZCLeabTAiimiRj08Xg/CF2B9MmQY=
 			</data>
 		</dict>
 	</dict>
